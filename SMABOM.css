@@ -1,0 +1,105 @@
+body{
+    /* max-width:80%;
+    min-width:80%; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    /* overflow: hidden; */
+    
+}
+
+.navbar-1{
+    /* min-height: 10px; */
+    max-width: 100%;
+    max-height: 100px;
+    overflow: hidden;
+    /* background-color: blue; */
+    font-family: sans-serif;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    
+    
+}
+
+.navbar-1 .logo img{
+    width:2rem;
+    height: 2rem;
+    border-radius: 50px;
+    top:2.1rem;
+    position: relative;
+    right: -1rem;
+    
+}
+
+.logo img:hover{
+    transform: scale(1.5);
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    
+}
+
+.navbar-1 ul{
+    left: 2rem;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    position: relative;
+    top: -10px;
+    
+}
+
+.navbar-1 ul li{
+    transition-duration: 0.1s;
+}
+
+.navbar-1 ul li:hover{
+    border-bottom:2px solid red ;
+    
+}
+
+.navbar-1 .backtrip button{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    position: relative;
+    top:-8px;
+    border: 1px solid white;
+    border-radius: 50px;
+
+
+}
+
+.navbar-1 .backtrip button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.halaman-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    
+    /* min-width: 80%;
+    max-width: 80%; */
+    /* background: url(hotel-1.jpeg);
+    background-size: cover; */
+}
+
+.halaman-1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.halaman-2{
+    min-height: 100vh;
+    
+}
